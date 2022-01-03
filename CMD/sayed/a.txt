@@ -1,0 +1,36 @@
+Required Commands: (You will choose only 12 commands to implement)
+Command 
+Name What You Must Implement
+echo Takes 1 argument and prints it.
+pwd Takes no arguments and prints the current path.
+cd Implement all these cases:
+1. cd takes no arguments and changes the current path to the path 
+of your home directory.
+2. cd takes 1 argument which is â
+..
+â (e.g. cd ..) and changes the 
+current directory to the previous directory.
+3. cd takes 1 argument which is either the full path or the 
+relative (short) path and changes the current path to that path.
+ls Takes no arguments and lists the contents of the current directory 
+sorted alphabetically.
+ls -r Takes no arguments and lists the contents of the current directory in 
+reverse order.
+mkdir Takes 1 or more arguments and creates a directory for each 
+argument. Each argument can be:
+â¢ Directory name (in this case the new directory is created in 
+the current directory)
+â¢ Path (full/short) that ends with a directory name (in this case 
+the new directory is created in the given path)
+rmdir Implement all these cases:
+1. rmdir takes 1 argument which is â*â (e.g. rmdir *) and 
+removes all the empty directories in the current directory.
+2. rmdir takes 1 argument which is either the full path or the 
+relative (short) path and removes the given directory only if 
+it is empty.
+touch Takes 1 argument which is either the full path or the relative 
+(short) path that ends with a file name and creates this file.
+cp Takes 2 arguments, both are files and copies the first onto the 
+second.
+cp -r Takes 2 arguments, both are directories (empty or not) and copies 
+the first directory (with all its content) into the second one.
