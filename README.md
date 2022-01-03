@@ -1,0 +1,2 @@
+# CMD_With_JAVA_PURE
+ CMD_With_JAVA_PURE
